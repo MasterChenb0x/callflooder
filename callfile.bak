@@ -1,0 +1,8 @@
+Channel: SIP/0000000000@sipprovideroutboundtrunk
+CallerID: "Evil Genius" 1111111111
+MaxRetries: 2
+RetryTime: 3
+Context: callflood
+Extension: s
+Priority: 1
+
