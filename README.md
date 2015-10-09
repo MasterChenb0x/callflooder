@@ -24,3 +24,7 @@ The speed of calls depends on a few things.
 1. Computing power
 2. The channel limit set by your SIP provider
 3. I guess it's just 1 and 2.
+
+To Do 10/08/2015
+================
+1. Change caller ID with each call to avoid a blacklist.
