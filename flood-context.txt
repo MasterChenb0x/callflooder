@@ -1,0 +1,7 @@
+[radcontest]
+ exten => s,1,Answer
+ exten => s,2,Set(CALLFILENAME=radcontest-${STRFTIME(${EPOCH},,%Y%m%d-%H%M%S)},g)
+ exten => s,3,Monitor(wav,${CALLFILENAME},m)
+ exten => s,4,Wait(1)
+ exten => s,5,Playback(/var/lib/asterisk/sounds/tt-monkeys)
+ exten => s,6,Hangup()
