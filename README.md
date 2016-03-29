@@ -9,15 +9,15 @@ YOUR OWN ABILITY TO HANDLE DOS ATTEMPTS.
 
 Materials Needed
 ================
-Asterisk (tested on v1.8 and higher)
-SIP provider
-BASH
+Asterisk (tested on v1.8 and higher)\n
+SIP provider\n
+BASH\n
 
 
 Usage
 =====
 From your working directory:
-./callscript.sh <number of calls>
+./callscript.sh &ltnumber of calls&gt
 
 The script runs through a loop that keeps throwing the Asterisk callfile into the outgoing directory.
 The speed of calls depends on a few things.
